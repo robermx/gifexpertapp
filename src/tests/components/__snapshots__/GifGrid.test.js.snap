@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Puebas con GifGrid component Mostrando items cuando se cargan con UseFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="text-light animate__animated animate__fadeInDown"
+  >
+    lost
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="1626ty"
+      key="1626ty"
+      title="bachas"
+      url="https://localhost/bacha.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Puebas con GifGrid component Mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="text-light animate__animated animate__fadeInDown"
+  >
+    lost
+  </h3>
+  <p
+    className="center animate__animated animate__pulse"
+  >
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['Lost']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
-      <h2> GifExpertApp </h2>
+      <h1 className="center text-light"> GifExpertApp </h1>
       <AddCategory setCategories={setCategories} />
       <hr />
 
